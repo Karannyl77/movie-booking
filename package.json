@@ -1,0 +1,25 @@
+{
+  "name": "book-my-show",
+  "version": "1.0.0",
+  "description": "Movie ticket booking system",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "Project Sem 4",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
